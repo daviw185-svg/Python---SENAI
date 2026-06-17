@@ -20,4 +20,26 @@ if (nota_satisfacao == 5):
     print (input("Bom! O que você acha que podemos melhorar? "))
 if (nota_satisfacao > 5): 
     print (input("Legal!! O que você acha que podemos melhorar? "))
-print (f'Muito obrigado por sua avaliação, {nome}')
+print (f'Muito obrigado por sua avaliação, {nome}.')
+
+"""
+# TERMINAL: 
+
+Bem-Vindo ao curso de Python!!
+ Para aprendermos juntos, preciso que você preencha as informações abaixo:
+Digite seu Nome Completo: Max Miller  
+Digite sua idade: 35          
+Desde que ano você está cursando? 2011        
+Qual a sua linguagem favorita? Python e PhP
+De 0-10, qual nota você dá ao curso? 5
+============================================ 
+ FICHA DO DESENVOLVEDOR 
+ ============================================
+Nome: Max Miller.
+Idade: 35.
+Tempo de Curso: 15.
+Linguagem favorita: Python e PhP.
+============================================
+Bom! O que você acha que podemos melhorar? Acho que poderia legalizar café para o aluno Davi Willian.
+Muito obrigado por sua avaliação, Max Miller.
+"""
