@@ -15,3 +15,4 @@ if (nivel == 'Intermediário'):
     print (f'Daqui 6 meses, se você fazer 1 módulo por dia, você adquirá o conhecimento de Avançado!')
 if (nivel == 'Avançado'):  
     print (f'Daqui 1 ano, se você fazer 1 módulo por dia, você adquirá o conhecimento de Sênior!')
+
