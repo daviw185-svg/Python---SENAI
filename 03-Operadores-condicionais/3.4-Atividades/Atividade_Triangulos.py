@@ -3,10 +3,12 @@ lado1 = float(input('Digite o tamanho do first lado: '))
 lado2 = float(input('Digite o tamanho do second lado: '))
 lado3 = float(input('Digite o tamanho do third lado: '))
 
+# Lógica: Definir os requisitos de quando o usuário for colocar os números
 lado1 < lado2 + lado3 
 lado2 < lado1 + lado3
 lado3 < lado1 + lado3
 
+# Resposta: usando if e elif para conferir os valores fornecidos pelo o usuário
 if lado1 > lado2 + lado3 :
     print(f'😞 Não foi possível classificar porque o lado "{lado1}" não pode ser maior do que a soma dos outros dois lados')
 elif lado1 == lado2 == lado3:
